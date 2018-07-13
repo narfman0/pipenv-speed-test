@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"boto3" = "*"
+requests = "*"
+flask = "*"
+flask-restplus = "*"
+inflection = "*"
+flask-cors = "*"
+
+[dev-packages]
+flask-cors = "*"
+pytest-cov = "*"
+"pytest-flake8" = "*"
+"flake8" = "*"
+flask-webtest = "*"
+
+[requires]
+python_version = "3.7"
